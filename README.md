@@ -4,12 +4,15 @@ This repo performs color correction and texture analysis using [Colour](https://
 
 To run the examples the easiest thing to do is to start with a clean virtual environment. After you clone the repo, create the virtual environment and install the requirements.
 
-```
+```bash
 python3 -m venv color-venv
 source color-venv/bin/activate
 pip install -r requirements.txt
 ```
 then start jupyter and you should be able to run the code in `photo_transform.ipynb` and `texture_assement.ipynb`.
+```bash
+jupyter notebook
+```
 
 ## Explanation of files
 - `SpyderCHECKR24.py`: This defines the colors used in the SpyderCHECKR24 color calibration chart
