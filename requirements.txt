@@ -1,0 +1,7 @@
+jupyter
+numpy
+scipy
+matplotlib
+colour-science
+colour-checker-detection
+scikit-image
