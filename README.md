@@ -12,7 +12,7 @@ pip install -r requirements.txt
 then start jupyter and you should be able to run the code in `photo_transform.ipynb` and `texture_assement.ipynb`.
 
 ## Explanation of files
-- `1SpyderCHECKR24.py`: This defines the colors used in the SpyderCHECKR24 color calibration chart
+- `SpyderCHECKR24.py`: This defines the colors used in the SpyderCHECKR24 color calibration chart
 - `ColorCorrect.py`: This is a convienence function which calls the `colour.colour_correction`, as well as handling color space transformations.
 - `batch_colorcorrect.py`: This is a script to loop through all images in `JPG_uncorrected` and performing color correction on them.
 - `photo_transform.ipynb`: This is an example color correction calculation.
